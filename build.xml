@@ -1,6 +1,6 @@
 
 <project name="Projekt2" default="compile">
-<property name="team.name" value="Team01d"/>
+<property name="team.name" value="Team01d2"/>
 <property name="project.name" value="Projekt"/>
 <property name="project.dir" value="${basedir}"/>
 <property name="src.dir" value="${project.dir}/src"/>
