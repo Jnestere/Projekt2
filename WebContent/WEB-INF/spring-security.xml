@@ -31,7 +31,7 @@
 			<user-service>
 				<user name="user" password="12dea96fec20593566ab75692c9949596833adc9"
 					authorities="ROLE_USER" />
-				<user name="admin" password="a"
+				<user name="admin" password="d033e22ae348aeb5660fc2140aec35850c4da997"
 					authorities="ROLE_ADMIN" />
 			</user-service>
 		</authentication-provider>

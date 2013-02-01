@@ -12,7 +12,7 @@
       <property name="javax.persistence.jdbc.user" value="sa" />
       <property name="javax.persistence.jdbc.password" value="" />
       <property name="javax.persistence.jdbc.url"
-        value="jdbc:hsqldb:file:${user.home}/i377/Team06dMVC/db;shutdown=true" />
+        value="jdbc:hsqldb:file:${user.home}/i377/Team01d2/db;shutdown=true" />
 
       <property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" />
       <property name="hibernate.hbm2ddl.auto" value="update" />

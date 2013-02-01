@@ -28,12 +28,14 @@
 
 </head>
 <body>
-
+<div style="float: right">
+		<spring:message code="header.label.hello" />
+		${formData.username}! <a href="<c:url value='/logout' />"><spring:message
+				code="header.link.logout" /></a>
+	</div>
 	<div id="header">
 		<jsp:include page="header.jsp"/>
 	</div>
-	
-	
 	<div id="content">
 	 	<div class="pad10">
 	
@@ -44,9 +46,11 @@
 			</ul>
 			
 		</div>
-</div>
-<a href="<c:url value='/' />"><spring:message
+	</div>
+<p>
+			<a href="<c:url value='/' />"><spring:message
 					code="adminStruktur.link.back" /></a>
+		</p>
 </body>
 
 	

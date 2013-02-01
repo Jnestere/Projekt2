@@ -14,7 +14,7 @@
         						http://www.springframework.org/schema/mvc
         						http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
 
-	<context:component-scan base-package="bg" />
+	<context:component-scan base-package="pr" />
   	
 <!--   	<context:annotation-config/>   -->
 
@@ -45,7 +45,7 @@
 	<bean 	id="dataSource"
 			class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName"	value="org.hsqldb.jdbcDriver" />
-		<property name="url"				value="jdbc:hsqldb:file:${user.home}/i377/Team06dMVC/db;shutdown=true" />
+		<property name="url"				value="jdbc:hsqldb:file:${user.home}/i377/Team01d2/db;shutdown=true" />
 		<property name="username" 			value="sa" />
 		<property name="password" 			value="" />
 	</bean>

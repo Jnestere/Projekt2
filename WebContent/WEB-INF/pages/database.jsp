@@ -16,9 +16,6 @@
 		<jsp:include page="header.jsp"/>
 	</div>
 	
-	<div id="navigation">
-   		<jsp:include page="navigation.jsp"/>
-	</div>	
 	
 	<div id="content">
 		<br><br><br><br><br>
@@ -26,40 +23,7 @@
 			<c:out value="${status}"/>
 			
 
-			<c:if test="${not empty types}">
-				<br><br><b>Types:</b><br>
-				<c:forEach var = "type" items="${types}" >
-					<c:out value="${type.name}"/>, 
-				</c:forEach>
-			</c:if>
-			
-			<c:if test="${not empty typeAssociations}">
-			    <br><br><b>Type Associations:</b><br>	
-				<c:forEach var = "ta" items="${typeAssociations}" >
-					<c:out value="${ta.subOrdinate.name}"/> > <c:out value="${ta.boss.name}"/>, 
-				</c:forEach>
-			</c:if>
-
-			<c:if test="${not empty units}">
-				<br><br><b>Units:</b><br>
-				<c:forEach var = "unit" items="${units}" >
-					<c:out value="${unit.name}"/>, 
-				</c:forEach>
-			</c:if>
-			
-			<c:if test="${not empty unitAssociations}">
-			    <br><br><b>Unit Associations:</b><br>	
-				<c:forEach var = "ua" items="${unitAssociations}" >
-					<c:out value="${ua.subOrdinate.name}"/> > <c:out value="${ua.boss.name}"/>, 
-				</c:forEach>
-			</c:if>
-
-			
 		</p>
-	</div>
-	
-	<div id="footer">
-		<jsp:include page="footer.jsp"/>
 	</div>
 
 </body>
